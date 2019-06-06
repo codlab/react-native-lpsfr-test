@@ -1,0 +1,33 @@
+{
+  "name": "Test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "eventemitter2": "^5.0.1",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-lpsfr": "0.0.24",
+    "react-native-sqlite-storage": "^3.3.10",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "typescript": "^3.5.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
