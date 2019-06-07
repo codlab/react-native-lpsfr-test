@@ -44,7 +44,7 @@ export default class App extends Component<Props, State> {
         uuid: uuid.v4()
       };
       const project: Project = this._project_database.instantiate(data, Project);
-      return this._project_database.createOrUpdate(project);
+      return project.save().then(saved => project);
     })
     .then(project => console.warn("new project", project));
   }
